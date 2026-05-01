@@ -1,13 +1,20 @@
 #!/bin/bash
 
-# Clone the Flutter repository
+# 1. Install Flutter
 git clone https://github.com/flutter/flutter.git -b stable
-
-# Add Flutter to the path
 export PATH="$PATH:`pwd`/flutter/bin"
 
-# Enable web support
-flutter config --enable-web
+# 2. Run Doctor to ensure environment is ready
+flutter doctor
 
-# Build the project
+# 3. Enable Web and Build
+flutter config --enable-web
 flutter build web --release --base-href "/"
+
+# 4. Check if build was successful
+if [ -d "build/web" ]; then
+  echo "Build successful."
+else
+  echo "Build failed."
+  exit 1
+fi
