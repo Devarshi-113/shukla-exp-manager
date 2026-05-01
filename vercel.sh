@@ -18,3 +18,4 @@ flutter build web --release --base-href "/"
 
 # 5. List files to verify build success (helps with debugging)
 ls -R build/web
+# changed to LF for linux
