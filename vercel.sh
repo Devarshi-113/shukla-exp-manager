@@ -10,4 +10,4 @@ export PATH="$PATH:`pwd`/flutter/bin"
 flutter config --enable-web
 
 # Build the project
-flutter build web --release
+flutter build web --release --base-href "/"
