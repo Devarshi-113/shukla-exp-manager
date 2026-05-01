@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709635274768",
+    "project_id": "home-exp-manager",
+    "storage_bucket": "home-exp-manager.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709635274768:android:94ba5d3c72165391c9f295",
+        "android_client_info": {
+          "package_name": "com.example.expense_manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvXq_Ey7UQQFLmfOT6hfa9tsVpsyfTEM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
