@@ -4,7 +4,7 @@ import '../l10n/static_translations.dart';
 import '../providers/settings_provider.dart';
 
 class SettingsScreen extends StatelessWidget {
-  const SettingsScreen({Key? key}) : super(key: key);
+  const SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

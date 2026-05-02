@@ -7,7 +7,7 @@ import '../providers/settings_provider.dart';
 import '../models/expense.dart';
 
 class AddExpenseBottomSheet extends StatefulWidget {
-  const AddExpenseBottomSheet({Key? key}) : super(key: key);
+  const AddExpenseBottomSheet({super.key});
 
   @override
   State<AddExpenseBottomSheet> createState() => _AddExpenseBottomSheetState();
@@ -214,7 +214,7 @@ class _AddExpenseBottomSheetState extends State<AddExpenseBottomSheet> {
               ),
               const SizedBox(height: 16),
               DropdownButtonFormField<String>(
-                value: _category,
+                initialValue: _category,
                 decoration: InputDecoration(
                   labelText: StaticTranslations.get(context, 'category'),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
@@ -230,7 +230,7 @@ class _AddExpenseBottomSheetState extends State<AddExpenseBottomSheet> {
               ),
               const SizedBox(height: 16),
               DropdownButtonFormField<String>(
-                value: _subCategory,
+                initialValue: _subCategory,
                 decoration: InputDecoration(
                   labelText: StaticTranslations.get(context, 'subCategory'),
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),

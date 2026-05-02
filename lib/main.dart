@@ -35,7 +35,7 @@ void main() async {
 }
 
 class FamilyExpenseApp extends StatelessWidget {
-  const FamilyExpenseApp({Key? key}) : super(key: key);
+  const FamilyExpenseApp({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -7,7 +7,7 @@ import '../models/expense.dart';
 import 'add_expense_bottom_sheet.dart';
 
 class ExpensesScreen extends StatelessWidget {
-  const ExpensesScreen({Key? key}) : super(key: key);
+  const ExpensesScreen({super.key});
 
   void _showAddExpenseModal(BuildContext context) {
     showModalBottomSheet(
