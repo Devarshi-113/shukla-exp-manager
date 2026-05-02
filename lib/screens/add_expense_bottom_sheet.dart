@@ -23,17 +23,93 @@ class _AddExpenseBottomSheetState extends State<AddExpenseBottomSheet> {
   DateTime _selectedDate = DateTime.now();
   String _mode = 'online';
 
+  // final Map<String, List<String>> _categoryMap = {
+  //   'Housing': ['Housing', 'Mortgage', 'Property Tax', 'Home Insurance', 'Maintenance', 'Other'],
+  //   'Utilities': ['Electricity', 'Water & Sewage', 'Gas', 'Internet & TV', 'Mobile Phone', 'Other'],
+  //   'Food': ['Dining Out', 'Online ordering', 'Other'],
+  //   'Vehicle / Transportation': ['Fuel', 'Maintenance', 'Public Transit', 'Parking & Tolls', 'Other'],
+  //   'Family': ['Childcare', 'School Fees', 'Toys & Gear', 'Other'],
+  //   'Healthcare': ['Medical Visits', 'Pharmacy', 'Dental', 'Vision', 'Other'],
+  //   'Personal Care': ['Clothing', 'Hair & Grooming', 'Toiletries', 'Gym & Fitness', 'Other'],
+  //   'Entertainment': ['Streaming', 'Movies & Events', 'Hobbies', 'Other'],
+  //   'Home': ['Cleaning Supplies', 'Furniture', 'Repairs & Tools', 'Groceries', 'Other'],
+  //   'Financial': ['Debt Payments', 'Savings', 'Life Insurance', 'Gifts & Charity', 'Miscellaneous', 'Other'],
+  //   'Other': ['Other']
+  // };
+
   final Map<String, List<String>> _categoryMap = {
-    'Housing': ['Housing', 'Mortgage', 'Property Tax', 'Home Insurance', 'Maintenance', 'Other'],
-    'Utilities': ['Electricity', 'Water & Sewage', 'Gas', 'Internet & TV', 'Mobile Phone', 'Other'],
-    'Food': ['Dining Out', 'Online ordering', 'Other'],
-    'Vehicle / Transportation': ['Fuel', 'Maintenance', 'Public Transit', 'Parking & Tolls', 'Other'],
-    'Family': ['Childcare', 'School Fees', 'Toys & Gear', 'Other'],
-    'Healthcare': ['Medical Visits', 'Pharmacy', 'Dental', 'Vision', 'Other'],
-    'Personal Care': ['Clothing', 'Hair & Grooming', 'Toiletries', 'Gym & Fitness', 'Other'],
-    'Entertainment': ['Streaming', 'Movies & Events', 'Hobbies', 'Other'],
-    'Home': ['Cleaning Supplies', 'Furniture', 'Repairs & Tools', 'Groceries', 'Other'],
-    'Financial': ['Debt Payments', 'Savings', 'Life Insurance', 'Gifts & Charity', 'Miscellaneous', 'Other'],
+    'Food & Drinks': [
+      'Groceries', 
+      'Restaurant', 
+      'Online Ordering', 
+      'Other'
+    ],
+    'Shopping': [
+      'Clothes & Shoes', 
+      'Electronics & Accessories', 
+      'Gifts', 
+      'Health & Beauty', 
+      'Jewels & Accessories', 
+      'Stationery / Tools', 
+      'Home / Garden', 
+      'Other'
+    ],
+    'Housing': [
+      'Electricity', 
+      'Gas', 
+      'Rent', 
+      'Maintenance', 
+      'Repairs', 
+      'Services', 
+      'Other'
+    ],
+    'Transportation': [
+      'Business Trips', 
+      'Flights', 
+      'Public Transport', 
+      'Taxi', 
+      'Other'
+    ],
+    'Vehicle': [
+      'Fuel', 
+      'Parking', 
+      'Maintenance', 
+      'Other'
+    ],
+    'Life & Entertainment': [
+      'Sports / Fitness', 
+      'Subscriptions', 
+      'Cultural', 
+      'Hobbies', 
+      'Holiday / Trips / Hotels', 
+      'Events / Functions', 
+      'TV / Streaming', 
+      'Wellness / Beauty', 
+      'Other'
+    ],
+    'Communication': [
+      'Internet', 
+      'Phone', 
+      'Software / Apps / Games', 
+      'Other'
+    ],
+    'Financial': [
+      'Advisory', 
+      'Fees', 
+      'Charges', 
+      'Fines', 
+      'Insurance', 
+      'Loan / Interest', 
+      'Taxes', 
+      'Mortgage', 
+      'Other'
+    ],
+    'Medical': [
+      'Medicines', 
+      'Doctor Visit', 
+      'Operations / Surgery', 
+      'Other'
+    ],
     'Other': ['Other']
   };
 
