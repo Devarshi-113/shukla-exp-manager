@@ -18,7 +18,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   int _selectedMonth = DateTime.now().month;
   String? _selectedCategory;
 
-  final double _targetAmount = 150000.0;
+  final double _targetAmount = 200000.0;
 
   @override
   Widget build(BuildContext context) {

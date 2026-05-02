@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SettingsProvider with ChangeNotifier {
-  String _selectedMember = 'Darsh'; 
+  String _selectedMember = 'Arkesh'; 
   Locale _locale = const Locale('en');
   ThemeMode _themeMode = ThemeMode.system;
 
@@ -10,8 +10,15 @@ class SettingsProvider with ChangeNotifier {
   Locale get locale => _locale;
   ThemeMode get themeMode => _themeMode;
 
-  // Provide the 4 family members as requested.
-  final List<String> familyMembers = ['Darsh', 'Dev', 'Pinkal', 'Purvi'];
+  // Updated family members list
+  final List<String> familyMembers = [
+    'Arkesh',
+    'Avni',
+    'Dushyant',
+    'Pratham',
+    'Radha',
+    'Sarla'
+  ];
 
   SettingsProvider() {
     _loadSettings();

@@ -1,1 +1,36 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"home-exp-manager","appId":"1:709635274768:android:94ba5d3c72165391c9f295","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"home-exp-manager","configurations":{"android":"1:709635274768:android:94ba5d3c72165391c9f295","ios":"1:709635274768:ios:e0f9b34e819955e2c9f295","macos":"1:709635274768:ios:e0f9b34e819955e2c9f295","web":"1:709635274768:web:7be47a9ae56d0c58c9f295","windows":"1:709635274768:web:89fa603986186946c9f295"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "shukla-exp-manager",
+          "appId": "1:877934920921:android:e770d3aaab5b45d482aac8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "shukla-exp-manager",
+          "appId": "1:877934920921:ios:1cb80e861866a63b82aac8",
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "web": {
+        "default": {
+          "projectId": "shukla-exp-manager",
+          "appId": "1:877934920921:web:4e079f47d8d94d3f82aac8"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "shukla-exp-manager",
+          "configurations": {
+            "android": "1:877934920921:android:e770d3aaab5b45d482aac8",
+            "ios": "1:877934920921:ios:1cb80e861866a63b82aac8",
+            "web": "1:877934920921:web:4e079f47d8d94d3f82aac8"
+          }
+        }
+      }
+    }
+  }
+}
